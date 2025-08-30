@@ -31,9 +31,7 @@ def calculate_max_lengths(data_path):
         smiles_tokens = tokenizer(smiles, add_special_tokens=False)
         token_ids = smiles_tokens['input_ids']
         tokens = tokenizer.convert_ids_to_tokens(token_ids) 
-        if i == 0:
-            smilestest=smiles
-            tokenstest=tokens
+        
             
         smiles_lengths.append(len(smiles_tokens['input_ids']))
         
@@ -50,5 +48,5 @@ def calculate_max_lengths(data_path):
     #print(f"\nRecommended max_smiles_length: {recommended_smiles}")
     #print(f"Recommended max_length: {recommended_full}")
     
-    return recommended_smiles, recommended_full
+    return recommended_full
 
