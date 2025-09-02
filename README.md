@@ -15,3 +15,5 @@ This project reimplements the structure-aware fine-tuning approach from "SAFT: S
 The main implementation is in `HIV.ipynb` which should be run in Google Colab with GPU. It uses the following supporting files:
 - `data_import.py` - Data preprocessing utilities
 - `utils.py` - Helper functions
+
+Git Clone this repo as Project_HIV within your main drive folder so that gdrive_path='/content/gdrive/MyDrive/Project_HIV'
