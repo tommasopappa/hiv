@@ -1,0 +1,38 @@
+# Dataset files
+hiv_train.jsonl
+hiv_val.jsonl
+*.jsonl
+
+# Large data files
+*.csv
+*.json
+*.parquet
+*.h5
+*.hdf5
+
+# Checkpoints and large model files (optional)
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+venv/
+env/
+.venv/
+
+
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files (optional)
+.vscode/
+.idea/
+*.swp
+*.swo
