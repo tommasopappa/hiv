@@ -1,6 +1,6 @@
 # Graph-PE-LLM-HIV: Structure-Aware Fine-Tuning for Molecular Property Prediction
 
-Implementation of graph positional encoding techniques from [SAFT](https://arxiv.org/abs/2407.13381) adapted for molecular property prediction using the HIV dataset.
+Implementation of graph positional encoding techniques from [SAFT](https://arxiv.org/abs/2507.13381) adapted for molecular property prediction using the HIV dataset.
 
 ## Overview
 This project reimplements the structure-aware fine-tuning approach from "SAFT: Structure-Aware Fine-Tuning of LLMs for AMR-to-Text Generation" for a different domain - predicting HIV activity from molecular structures represented as SMILES strings.
